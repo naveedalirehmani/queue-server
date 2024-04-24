@@ -1,0 +1,19 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node index.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bullmq": "^5.7.5",
+    "dotenv": "^16.4.5"
+  }
+}
